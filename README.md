@@ -9,8 +9,8 @@ Skills are modular, reusable knowledge packages that extend Claude's capabilitie
 **Learn more about Skills:**
 
 - 🌐 [Agent Skills Official Site](https://agentskills.io)
-- 📚 [Skills Documentation](https://docs.anthropic.com/en/docs/build-with-claude/agent-skills)
-- 🎓 [Getting Started Guide](https://agentskills.io/getting-started)
+- 📚 [Skills Documentation](https://platform.claude.com/docs/en/agents-and-tools/agent-skills/overview)
+- 🎓 [Getting Started Guide](https://agentskills.io/home#get-started)
 
 Each skill in this collection contains:
 
