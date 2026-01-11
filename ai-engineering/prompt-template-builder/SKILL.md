@@ -280,14 +280,14 @@ export const chainedPrompts = {
   step1_analyze: (code: string) => `
     Analyze this code and identify potential issues:
     ${code}
-    
+
     List issues in JSON array format with severity and description.
   `,
 
   step2_suggest: (issues: Issue[]) => `
     Given these code issues:
     ${JSON.stringify(issues)}
-    
+
     Provide detailed fix suggestions for each issue.
   `,
 

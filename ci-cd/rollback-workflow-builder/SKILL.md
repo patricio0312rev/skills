@@ -88,14 +88,14 @@ jobs:
               repo: context.repo.repo,
               title: `Rollback: ${context.payload.inputs.environment} to ${context.payload.inputs.version}`,
               body: `## Rollback Details
-              
+
               **Environment:** ${context.payload.inputs.environment}
               **From:** ${{ steps.current.outputs.version }}
               **To:** ${context.payload.inputs.version}
               **Reason:** ${context.payload.inputs.reason}
               **Triggered by:** @${context.actor}
               **Time:** ${new Date().toISOString()}
-              
+
               ## Next Steps
               - [ ] Verify rollback successful
               - [ ] Investigate root cause

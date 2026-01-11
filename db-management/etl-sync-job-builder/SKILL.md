@@ -351,14 +351,14 @@ export class OrdersETLJob extends ETLJob {
 
       await warehouseDb.$executeRaw`
         INSERT INTO orders_fact (
-          order_id, user_email, total_amount, item_count, 
+          order_id, user_email, total_amount, item_count,
           status, order_date, synced_at
         )
         VALUES ${batch
           .map(
             (o) => `(
-          ${o.order_id}, '${o.user_email}', ${o.total_amount}, 
-          ${o.item_count}, '${o.status}', '${o.order_date}', 
+          ${o.order_id}, '${o.user_email}', ${o.total_amount},
+          ${o.item_count}, '${o.status}', '${o.order_date}',
           '${o.synced_at}'
         )`
           )

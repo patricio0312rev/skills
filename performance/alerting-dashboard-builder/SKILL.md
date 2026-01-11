@@ -22,7 +22,7 @@ slos:
     objective: 95% # 95% of requests under 500ms
     window: 30d
     sli: |
-      histogram_quantile(0.95, 
+      histogram_quantile(0.95,
         rate(http_request_duration_seconds_bucket[5m])
       ) < 0.5
 ```

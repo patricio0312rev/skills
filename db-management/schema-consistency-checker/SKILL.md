@@ -129,7 +129,7 @@ async function auditSchema(): Promise<Violation[]> {
 
   // Get schema metadata
   const tables = await prisma.$queryRaw<any[]>`
-    SELECT 
+    SELECT
       table_name,
       column_name,
       data_type,

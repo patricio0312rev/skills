@@ -14,7 +14,7 @@ Every implementation includes: (1) Loading skeletons, (2) Error state with retry
 ## Key Patterns
 
 **Data Fetching Flow**: Check loading → Handle error → Show empty → Display data
-**State Machine**: XState for complex flows with multiple states and transitions  
+**State Machine**: XState for complex flows with multiple states and transitions
 **Optimistic Updates**: Instant UI feedback with rollback on error
 **Progressive Loading**: Show content incrementally as it loads
 

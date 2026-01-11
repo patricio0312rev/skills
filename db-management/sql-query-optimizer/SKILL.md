@@ -215,7 +215,7 @@ async function compareQueries() {
   // Query 2: Optimized
   const result2 = await benchmarkQuery("Optimized Query", async () => {
     return prisma.$queryRaw`
-      SELECT u.id, u.email, u.name, 
+      SELECT u.id, u.email, u.name,
              (SELECT COUNT(*) FROM orders WHERE user_id = u.id) as order_count
       FROM users u
       LIMIT 10
@@ -280,7 +280,7 @@ async function detectSlowQueries() {
 
   // Query pg_stat_statements for slow queries
   const slowQueries = await prisma.$queryRaw<any[]>`
-    SELECT 
+    SELECT
       query,
       calls,
       total_exec_time / 1000 as total_time_seconds,

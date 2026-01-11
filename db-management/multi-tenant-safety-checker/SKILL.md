@@ -232,8 +232,8 @@ describe("Tenant Isolation", () => {
 // scripts/audit-rls.ts
 async function auditRLS() {
   const tables = await prisma.$queryRaw<any[]>`
-    SELECT tablename 
-    FROM pg_tables 
+    SELECT tablename
+    FROM pg_tables
     WHERE schemaname = 'public'
     AND tablename != '_prisma_migrations'
   `;
@@ -243,7 +243,7 @@ async function auditRLS() {
   for (const { tablename } of tables) {
     // Check if table has tenant_id
     const columns = await prisma.$queryRaw<any[]>`
-      SELECT column_name 
+      SELECT column_name
       FROM information_schema.columns
       WHERE table_name = ${tablename}
       AND column_name = 'tenant_id'

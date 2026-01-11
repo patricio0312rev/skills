@@ -11,7 +11,7 @@ Create polished, performant animations and micro-interactions.
 
 **Hover Effects**: Scale, lift (translateY), glow (box-shadow), color shifts
 **Entrance**: Fade-in, slide-in, zoom-in with stagger for lists
-**Exit**: Fade-out, slide-out, scale-out  
+**Exit**: Fade-out, slide-out, scale-out
 **Loading**: Pulse, skeleton waves, progress bars
 **Gestures**: Ripple on click, drag feedback, swipe indicators
 

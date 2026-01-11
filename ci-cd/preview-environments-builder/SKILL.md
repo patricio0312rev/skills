@@ -130,7 +130,7 @@ jobs:
                 deployment_id: deployment.id,
                 state: 'inactive'
               });
-              
+
               await github.rest.repos.deleteDeployment({
                 owner: context.repo.owner,
                 repo: context.repo.repo,
