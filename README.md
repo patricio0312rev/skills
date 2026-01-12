@@ -22,7 +22,7 @@ Each skill in this collection contains:
 
 ## Skills Library
 
-### 🔧 Foundation (18 skills)
+### 🔧 Foundation (23 skills)
 
 **Development Environment & Project Setup**
 
@@ -44,6 +44,11 @@ Each skill in this collection contains:
 - **typescript-strict-migrator** - Migrate to strict TypeScript gradually
 - **hot-reload-optimizer** - Optimize HMR for faster development
 - **vscode-workspace-setup** - VS Code workspace configuration and extensions
+- **jsdoc-typescript-docs** - JSDoc and TypeScript documentation
+- **mermaid-diagram-generator** - Mermaid.js diagram generation
+- **pr-template-builder** - PR template generation
+- **readme-generator** - Comprehensive README documentation
+- **storybook-setup** - Storybook component documentation
 
 ### 🎨 Frontend (19 skills)
 
@@ -69,7 +74,7 @@ Each skill in this collection contains:
 - **react-server-components** - React Server Components patterns
 - **tanstack-query-setup** - TanStack Query configuration and patterns
 
-### ⚙️ Backend (15 skills)
+### ⚙️ Backend (16 skills)
 
 **APIs, Authentication & Server-Side Logic**
 
@@ -79,6 +84,7 @@ Each skill in this collection contains:
 - **webhook-receiver-hardener** - Secure webhook handling with signature verification
 - **rate-limiting-abuse-protection** - Request rate limiting and abuse prevention
 - **api-contract-normalizer** - OpenAPI/Swagger documentation generation
+- **api-docs-generator** - OpenAPI/Swagger documentation generation
 - **caching-strategist** - Multi-layer caching strategies (Redis, CDN)
 - **error-handling-standardizer** - Consistent error responses and logging
 - **service-layer-extractor** - Clean architecture with service layers
@@ -125,7 +131,7 @@ Each skill in this collection contains:
 - **rfc-generator** - Request for Comments proposal templates
 - **performance-budget-setter** - Performance budgets and monitoring
 
-### 🔄 CI/CD & Infrastructure (15 skills)
+### 🔄 CI/CD & Infrastructure (14 skills)
 
 **Automation, Deployments & Release Management**
 
@@ -143,7 +149,6 @@ Each skill in this collection contains:
 - **kubernetes-manifest-generator** - Kubernetes deployment manifests
 - **terraform-module-builder** - Terraform module development
 - **nginx-config-optimizer** - NGINX configuration optimization
-- **pr-template-builder** - PR template generation
 
 ### 💾 Database Management (10 skills)
 
@@ -160,7 +165,7 @@ Each skill in this collection contains:
 - **etl-sync-job-builder** - ETL pipelines and data synchronization
 - **db-performance-watchlist** - Database monitoring and alerting
 
-### 🧪 Testing (14 skills)
+### 🧪 Testing (22 skills)
 
 **Quality Assurance & Test Coverage**
 
@@ -178,6 +183,14 @@ Each skill in this collection contains:
 - **api-mock-server** - API mocking with MSW patterns
 - **load-test-builder** - Load testing with k6
 - **cypress-playwright-setup** - E2E testing framework setup
+- **api-docs-generator** - API documentation generation for testing
+- **api-test-suite-generator** - Comprehensive API test suite generation
+- **bruno-collection-generator** - Bruno API client collection generator
+- **curl-command-generator** - cURL command generation for API testing
+- **insomnia-collection-generator** - Insomnia API client collection generator
+- **openapi-generator** - OpenAPI specification generator
+- **postman-collection-generator** - Postman collection generator
+- **vscode-rest-client-generator** - VS Code REST Client file generator
 
 ### 🔒 Security (14 skills)
 
@@ -213,16 +226,6 @@ Each skill in this collection contains:
 - **capacity-planning-helper** - Infrastructure sizing and cost analysis
 - **postmortem-writer** - Blameless postmortem documentation
 - **redis-patterns** - Redis caching and data structure patterns
-
-### 📝 Documentation (5 skills)
-
-**Technical Documentation & Diagrams**
-
-- **api-docs-generator** - OpenAPI/Swagger documentation generation
-- **mermaid-diagram-generator** - Mermaid.js diagram generation
-- **readme-generator** - Comprehensive README documentation
-- **storybook-setup** - Storybook component documentation
-- **jsdoc-typescript-docs** - JSDoc and TypeScript documentation
 
 ## 🚀 How to Use
 
@@ -330,7 +333,7 @@ These skills represent best practices from:
 
 ## 📊 Stats
 
-- **155 Skills** across 11 engineering disciplines
+- **155 Skills** across 10 engineering disciplines
 - **90,000+ lines** of production-ready code
 - **Complete SDLC coverage** from design to operations
 - **Battle-tested patterns** used in production systems
